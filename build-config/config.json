@@ -4,7 +4,7 @@
         "npm install",
         "ln -s /data/common/sonorpc ./node_modules/sonorpc",
         "pm2 stop rpc_registry",
-        "pm2 start scripts/registry.js --name \"rpc_registry\"",
+        "pm2 start scripts/registry.js --name rpc_registry",
         "pm2 save"
     ],
     "autoConfig": []
