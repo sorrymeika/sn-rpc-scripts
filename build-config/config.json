@@ -1,0 +1,9 @@
+{
+    "buildCommands": [
+        "npm install",
+        "ln -s /data/common/sonorpc ./node_modules/sonorpc",
+        "pm2 stop sfs_registry",
+        "pm2 start scripts/registry.js --name \"rpc_registry\""
+    ],
+    "autoConfig": []
+}
